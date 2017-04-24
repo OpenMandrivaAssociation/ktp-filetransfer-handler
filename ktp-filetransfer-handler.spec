@@ -1,6 +1,6 @@
 Summary:	KDE Telepathy file transfer handler
 Name:		ktp-filetransfer-handler
-Version:	16.12.2
+Version:	17.04.0
 Release:	1
 Epoch:		1
 License:	GPLv2+
@@ -50,7 +50,7 @@ BuildRequires:	pkgconfig(shared-mime-info)
 %description
 KDE Telepathy file transfer handler
 
-%files
+%files -f %{name}.lang
 %{_libdir}/libexec/ktp-filetransfer-handler
 %{_datadir}/dbus-1/services/org.freedesktop.Telepathy.Client.KTp.*.service
 %{_datadir}/telepathy/clients/KTp.*.client
@@ -64,3 +64,4 @@ KDE Telepathy file transfer handler
 
 %install
 %ninja_install -C build
+%find_lang ktp-filetransfer-handler
