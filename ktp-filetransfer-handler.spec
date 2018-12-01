@@ -1,6 +1,6 @@
 Summary:	KDE Telepathy file transfer handler
 Name:		ktp-filetransfer-handler
-Version:	 18.11.80
+Version:	 18.11.90
 Release:	1
 Epoch:		1
 License:	GPLv2+
