@@ -1,4 +1,2 @@
-removed_sources:
-  ktp-filetransfer-handler-17.12.1.tar.xz: b5f5c903fe226e6066e1d6c05ccecd136cdd658a
 sources:
-  ktp-filetransfer-handler-19.04.2.tar.xz: 08f11c822f2f978aec113213e647ed4ba2d4af11
+  ktp-filetransfer-handler-19.04.3.tar.xz: 6d0baeda5763ac1afcd79e8528d2ad54603f7a73
